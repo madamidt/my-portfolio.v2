@@ -36,6 +36,6 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Check credentials
-        run: awss s3 ls
         
+
       
